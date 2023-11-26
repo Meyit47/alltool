@@ -1,4 +1,4 @@
-echo|'
+echo '
      ╔[ATTENTION] Daha Dik Araçlar
      [01] >> Bilgi toplama: 
       ├ Veritabanından bilgi topluyor
