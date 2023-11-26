@@ -23,6 +23,6 @@ rm -rf ~/.termux/colors.properties
 rm -rf ~/.termux/termux.properties
 rm -rf ~/.termux/termux.properties2
 rm -rf /data/data/com.termux/files/usr/etc/motd
-cd ~/AllHackingTools/Termux-os/.object ; cp -r .colors.properties2 ~/.termux/colors.properties
-cd ~/AllHackingTools/Termux-os/.object ; cp -r .termux.properties2 ~/.termux/termux.properties
+cd ~/alltool/Termux-os/.object ; cp -r .colors.properties2 ~/.termux/colors.properties
+cd ~/alltool/Termux-os/.object ; cp -r .termux.properties2 ~/.termux/termux.properties
 am broadcast --user 0 -a com.termux.app.reload_style com.termux > /dev/null
