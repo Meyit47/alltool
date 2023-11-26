@@ -19,13 +19,13 @@ echo -e "$y |    |  / |  |_> > /_/ | / __ \|  | \  ___/     "
 echo -e "$y |______/  |   __/\____ |(____  /__|  \___  >    "
 echo -e "$y           |__|        \/     \/          \/     "
 echo ""
-echo -e "$y [>] Tool Name : AllHackingTools"
-echo -e "$y [>] Developer : Misha Korzhik"
+echo -e "$y [>] Tool İSMİ : alltool"
+echo -e "$y [>] DEVELOPER :🇲 🇪 🇾 🇮 🇹 🇿 🇦 🇩 🇪"
 echo ""
-echo -e $w"["$o"SYSTEM"$w"]"$w" I don't close Termux App And CNTR + C."$w
-echo -e $w"["$o"SYSTEM"$w"]"$w" Press enter. To update AllHackingTools"$w
+echo -e $w"["$o"SİSTEM"$w"]"$w" Termux Uygulamasını ve kapatıyorum CTRL + C."$w
+echo -e $w"["$o"SİSTEM"$w"]"$w" Enter tuşuna basın. alltool u Güncellemek için.."$w
 read a1
 cd
 cd
-python3 AllHackingTools/.check/UpdaterConfig.py
+python3 alltool/.check/UpdaterConfig.py
 
