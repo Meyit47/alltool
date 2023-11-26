@@ -4,7 +4,7 @@ cd /data/data/com.termux/files/usr/etc/
 rm -rf zshrc
 cd
 cd
-cd AllHackingTools
+cd alltool
 cd Tool
 cp zshrc /data/data/com.termux/files/usr/etc/
 cd
@@ -19,14 +19,14 @@ yellow='\e[1;33m'
 
 echo " "
 echo " "
-echo -e "\e[1m\e[33m\nEnter Your \e[31mBanner \e[33mName\e[32m :\n\n"
+echo -e "\e[1m\e[33m\nGirin \e[31mBanner \e[33mName\e[32m :\n\n"
 read eybn
 echo
-echo -e "\e[1m\e[33m\nEnter Your Cowsay Name\e[32m :\n\n "
+echo -e "\e[1m\e[33m\nCowsay Adınızı Girin\e[32m :\n\n "
 read eycn
 echo  "clear && cowsay -f eyes "$eycn" | lolcat -p 1.0" > C0w54y.txt
 echo "toilet -f rusto ' $eybn' -F gay | lolcat -p 1.0" > 84nn3r.txt
-echo "cd && bash AllHackingTools/Tool/UserInfo.sh" > U3eR1nf0.txt
+echo "cd && bash alltool/Tool/UserInfo.sh" > U3eR1nf0.txt
 echo
 cat "C0w54y.txt" >> /data/data/com.termux/files/usr/etc/zshrc
 ls
