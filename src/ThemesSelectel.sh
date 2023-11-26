@@ -6,9 +6,9 @@ DEFAULT_FG="$(printf '\033[39m')"  DEFAULT_BG="$(printf '\033[49m')"
 
 clear
 echo "${BLUE}-----------------------------"
-echo "| ${RED}Select A Theme ${BLUE}  "
+echo "| ${RED}Bir tema seç${BLUE}  "
 echo "|------- ----  --------- ---|"
-echo "| ${CYAN}1. Default ${BLUE}                "
+echo "| ${CYAN}1. KoyuMavi ${BLUE}                "
 echo "| ${CYAN}2. Neon ${BLUE}                   "
 echo "| ${CYAN}3. GoogleDark ${BLUE}            |"
 echo "| ${CYAN}4. Materia ${BLUE}               |"
@@ -17,14 +17,14 @@ echo "| ${CYAN}6. Smyck ${BLUE}                  "
 echo "| ${CYAN}7. Dracula ${BLUE}                "
 echo "  ${CYAN}8. Twilight ${BLUE}              |"
 echo "|                           |"
-echo "| ${RED}While   1/2/3/4/5/6/7/8: ${BLUE} |"
+echo "| ${RED}Sırasına göre - 1/2/3/4/5/6/7/8: ${BLUE} |"
 echo "----  ----------       ------"
 read numb
 clear
 echo "${BLUE}-----------------------------"
-echo "| ${RED}Please Wait A Moment ${BLUE}  "
+echo "| ${RED}Bir süre bekleyin lütfen${BLUE}  "
 echo "|------- ----  --------- ---|"
-echo "| ${CYAN}1. Default ${BLUE}                "
+echo "| ${CYAN}1. KoyuMavi ${BLUE}                "
 echo "| ${CYAN}2. Neon ${BLUE}                   "
 echo "| ${CYAN}3. GoogleDark ${BLUE}            |"
 echo "| ${CYAN}4. Materia ${BLUE}               |"
@@ -33,91 +33,91 @@ echo "| ${CYAN}6. Smyck ${BLUE}                  "
 echo "| ${CYAN}7. Dracula ${BLUE}                "
 echo "  ${CYAN}8. Twilight ${BLUE}              |"
 echo "|                           |"
-echo "| ${RED}While   1/2/3/4/5/6/7/8: ${BLUE} |"
+echo "| ${RED}Sırasına göre  1/2/3/4/5/6/7/8: ${BLUE} |"
 echo "----  ----------       ------"
 if [ $numb = "1" ]
 then
-        echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Reloading Settings..."
+        echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Ayarlar Yeniden Yükleniyor..."
         sleep 0.3
         echo ""
         cd
-        cd AllHackingTools
+        cd alltool
         bash Themes/Default.sh
-        echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Applined Succesful..!"
+        echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Başvuru Başarılı..!"
 else
         if [ $numb = "2" ]
         then
-                echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Reloading Settings..."
+                echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Ayarlar Yeniden Yükleniyor..."
                 sleep 0.3
                 echo ""
                 cd
-                cd AllHackingTools
+                cd alltool
                 bash Themes/Neon.sh
-                echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Applined Succesful..!"
+                echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Başvuru Başarılı..!"
         else
                 if [ $numb = "3" ]
                 then
-                        echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Reloading Settings..."
+                        echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Ayarlar Yeniden Yükleniyor..."
                         sleep 0.3
                         echo ""
                         cd
-                        cd AllHackingTools
+                        cd alltool
                         bash Themes/GoogleDark.sh
-                        echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Applined Succesful..!"
+                        echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Başvuru Başarılı..!"
                 else
                         if [ $numb = "4" ]
                         then
-                                echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Reloading Settings..."
+                                echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Ayarlar Yeniden Yükleniyor..."
                                 sleep 0.3
                                 echo ""
                                 cd
-                                cd AllHackingTools
+                                cd alltool
                                 bash Themes/Materia.sh
-                                echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Applined Succesful..!"
+                                echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Başvuru Başarılı..!"
                         else
                                 if [ $numb = "5" ]
                                 then
-                                        echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Reloading Settings..."
+                                        echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Ayarlar Yeniden Yükleniyor..."
                                         sleep 0.3
                                         echo ""
                                         cd
-                                        cd AllHackingTools
+                                        cd alltool
                                         bash Themes/Material.sh
-                                        echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Applined Succesful..!"
+                                        echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Başvuru Başarılı..!"
                                 else
                                         if [ $numb = "6" ]
                                         then
-                                                echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Reloading Settings..."
+                                                echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Ayarlar Yeniden Yükleniyor..."
                                                 sleep 0.3
                                                 echo ""
                                                 cd
-                                                cd AllHackingTools
+                                                cd alltool
                                                 bash Themes/Smyck.sh
-                                                echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Applined Succesful..!"
+                                                echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Başvuru Başarılı..!"
                                         else
                                                 if [ $numb = "7" ]
                                                 then
-                                                        echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Reloading Settings..."
+                                                        echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Ayarlar Yeniden Yükleniyor..."
                                                         sleep 0.3
                                                         echo ""
                                                         cd
-                                                        cd AllHackingTools
+                                                        cd alltool
                                                         bash Themes/Dracula.sh
-                                                        echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Applined Succesful..!"
+                                                        echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Başvuru Başarılı..!"
                                                 else
                                                         if [ $numb = "8" ]
                                                         then
-                                                                echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Reloading Settings..."
+                                                                echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Ayarlar Yeniden Yükleniyor..."
                                                                 sleep 0.3
                                                                 echo ""
                                                                 cd
-                                                                cd AllHackingTools
+                                                                cd alltool
                                                                 bash Themes/Twilight.sh
-                                                                echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Applined Succesful..!"
+                                                                echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Başvuru Başarılı..!"
                                                         else
-                                                                echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Invalid input! Reloading Option"
+                                                                echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Geçersiz Giriş! Yeniden Yüklemeli"
                                                                 sleep 1.5
-                                                                cd && cd AllHackingTools && bash src/ThemesSelectel.sh
+                                                                cd && cd alltool && bash src/ThemesSelectel.sh
                                                         fi
                                                 fi
                                         fi
