@@ -17,7 +17,7 @@ sleep 2
 clear
 cd
 cd
-cd AllHackingTools
-mv MainMenu.py /data/data/com.termux/files/home/AllHackingTools/Tool
+cd alltool
+mv MainMenu.py /data/data/com.termux/files/home/alltool/Tool
 clear
 python3 .check/Configuration.py
