@@ -1,7 +1,7 @@
 #!/usr/bin
-#Copyright 2021 AllHackingTools
-#Written by : Misha Korzhik
-#Github     : http://github.com/mishakorzik
+#Copyright 2023 alltool
+#Kopyalayan : MEYİTZADE
+#Telegram   : http://t.me/Meyit47
 
 import requests
 import os
@@ -10,7 +10,7 @@ import random
 import sys
 
 os.system("clear")
-os.system("cd && cd AllHackingTools")
+os.system("cd && cd alltool")
 os.system("bash Logo.sh")
 os.system("bash src/MenuOps.sh")
 
@@ -28,11 +28,11 @@ b="\033[1;34m"
 o="\033[1;33m"
 bl="\033[1;36;40m"
 
-op=int(raw_input("Options: "))
+op=int(raw_input("Seçenekler: "))
 if(op==1):
  os.system("bash src/Inf.sh")
  time.sleep(0.3)
- os.system("cd && cd AllHackingTools && python3 .check/IpMenuConfig.py")
+ os.system("cd && cd alltool && python3 .check/IpMenuConfig.py")
 elif(op==2):
  os.system("bash src/Inf.sh")
  time.sleep(0.3)
@@ -84,58 +84,58 @@ elif(op==13):
 elif(op==14):
  os.system("bash src/Inf.sh")
  time.sleep(0.3)
- os.system("cd && cd AllHackingTools && python2 Files/WordlistGeneratorMenu.py")
+ os.system("cd && cd alltool && python2 Files/WordlistGeneratorMenu.py")
 elif(op==15):
  os.system("bash src/Inf.sh")
  time.sleep(0.3)
- os.system("cd && cd AllHackingTools && python2 Files/XSSAttackMenu.py")
+ os.system("cd && cd alltool && python2 Files/XSSAttackMenu.py")
 elif(op==16):
  os.system("bash src/Inf.sh")
  time.sleep(0.3)
- os.system("cd && cd AllHackingTools && python2 Files/discordMenu.py")
+ os.system("cd && cd alltool && python2 Files/discordMenu.py")
 elif(op==17):
  os.system("bash src/Inf.sh")
  time.sleep(0.3)
- os.system("cd && cd AllHackingTools && python2 Files/telegramMenu.py")
+ os.system("cd && cd alltool && python2 Files/telegramMenu.py")
 elif(op==18):
  os.system("bash src/Inf.sh")
  time.sleep(0.3)
- os.system("cd && cd AllHackingTools && python3 .check/OtherToolConfig.py")
+ os.system("cd && cd alltool && python3 .check/OtherToolConfig.py")
 elif(op==19):
  os.system("bash src/Inf.sh")
  time.sleep(0.3)
- os.system("cd && cd AllHackingTools && python3 .check/TermuxPanelConfig.py")
+ os.system("cd && cd alltool && python3 .check/TermuxPanelConfig.py")
 elif(op==20):
  os.system("bash src/Inf.sh")
  time.sleep(0.3)
- os.system("cd && cd AllHackingTools && python2 .settings/settingsMenu.py")
+ os.system("cd && cd alltool && python2 .settings/settingsMenu.py")
 elif(op==21):
  os.system("bash src/Inf.sh")
  time.sleep(0.3)
- os.system("clear && cd && cd AllHackingTools && bash .settings/LICENSE.sh && cd && cd AllHackingTools && python3 src/Timer2.py && python2 MainMenu.py")
+ os.system("clear && cd && cd alltool && python2 MainMenu.py")
 elif(op==22):
  os.system("bash src/Inf.sh")
  time.sleep(0.3)
  time.sleep(1)
- os.system("cd && cd AllHackingTools && python3 .check/UpdaterConfig.py")
+ os.system("cd && cd alltool && python3 .check/UpdaterConfig.py")
 elif(op==23):
  os.system("bash src/Inf.sh")
  time.sleep(0.3)
  os.system("bash src/About.sh")
 elif(op==13324715):
- print("[DEBUG] Developer mode successfully enabled!")
+ print("[Meyit47] Geliştirici modu başarıyla etkinleştirildi!")
  time.sleep(0.8)
- os.system("cd && cd AllHackingTools && cd .settings && mv DesingLogo.py /data/data/com.termux/files/home/AllHackingTools/.temp/ && mv DesingMenu.py /data/data/com.termux/files/home/AllHackingTools/.temp/")
- print("[DEBUG] Please restart AllHackingTools!")
- os.system("cd && cd AllHackingTools && mv MainMenu.py /data/data/com.termux/files/home/AllHackingTools/.temp/temp && cd .settings && cd debug && cp MainMenu.py /data/data/com.termux/files/home/AllHackingTools/")
- print("[DEBUG] Warning! Customization has been disabled.")
+ os.system("cd && cd alltool && cd .settings && mv DesingLogo.py /data/data/com.termux/files/home/AllHackingTools/.temp/ && mv DesingMenu.py /data/data/com.termux/files/home/AllHackingTools/.temp/")
+ print("[Meyit47] Lütfen yeniden başla alltool!")
+ os.system("cd && cd alltool && mv MainMenu.py /data/data/com.termux/files/home/AllHackingTools/.temp/temp && cd .settings && cd debug && cp MainMenu.py /data/data/com.termux/files/home/AllHackingTools/")
+ print("[Meyit47] Uyarı! Özelleştirme devre dışı bırakıldı.")
 elif(op==24):
- os.system("clear && cd && cd AllHackingTools && bash Logo.sh")
- print("\033[1;31;40mExiting System...")
+ os.system("clear && cd && cd alltool && bash Logo.sh")
+ print("\033[1;31;40mSistemden Çıkış...")
  time.sleep(0.7)
 else:
- print("\033[1;31;40mInvalid input. Reloading Tools") 
+ print("\033[1;31;40mGeçersiz Giriş. Araçlar Yeniden Yükleniyor") 
  time.sleep(1.6)
  os.system("cd")
- os.system("cd AllHackingTool")
+ os.system("cd alltool")
  os.system("python2 MainMenu.py")
