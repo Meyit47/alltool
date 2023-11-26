@@ -6,8 +6,8 @@ echo '
  |  ██╔══██║██╔══██║██║░░██╗██╔═██╗░██║██║╚████║██║░░╚██╗╚════╝░░░██║░░░██║░░██║██║░░██║██║░░░░░
  |  ██║░░██║██║░░██║╚█████╔╝██║░╚██╗██║██║░╚███║╚██████╔╝░░░░░░░░░██║░░░╚█████╔╝╚█████╔╝███████╗
  |  ╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚═╝╚═╝░░╚══╝░╚═════╝░░░░░░░░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝ 
-[+] Title    : AllHackingTools - Tool for hacking  -  ⁣ATTENTION! The author of this article is not respo-
-[+] Github   : https://github.com/mishakorzik  -  nsi⁣ble responsible for any consequences of reading it. 
-[+] Coded By : Misha Korzhik (Міша Коржик)  -  All materials are provided for educational purposes only! 
+[+] Başlık     : alltool - Bilgisayar korsanlığı içindir  -  DİKKAT! Bu kod un yazarı sorumlu değil-
+[+] Telegram   : https://t.me/Meyit47 -  Kod un kötü sonuçlarından kullanan sorumlu tutulamaz. 
+[+] Kopyalayan : MEYİTZADE (Мeyit47)  -  Tüm materyaller yalnızca eğitim amaçlı sağlanmıştır! 
 [+]———————-——-–————————-—-–———-——————-—–————-————-—–———————-——–—————–-——[+]'
 
