@@ -1,29 +1,29 @@
 echo '
-  {01} - Information Gathering:  -  Collects information from database
-  {02} - Exploitation Tools:  -  selection of tools for operation and hacking
-  {03} - Sniffing and Spoofing:  -  Tools for forgery of data and databases
-  {04} - Web Attack Tools:  -  Tools for hacking websites and servers
-  {05} - Cam Hacking Tools:  -  Tools for hacking cams and front camera
-  {06} - Remote Trojan RAT:  -  Utilities for creating RAT virus
+  {01} - Bilgi Toplama: - Veritabanından bilgi toplar
+  {02} - Kullanım Araçları: - operasyon ve hackleme için araçların seçimi
+  {03} - Sniffing ve Spoofing: - Veri ve veritabanlarında sahteciliğe yönelik araçlar
+  {04} - Web Saldırısı Araçları: - Web sitelerini ve sunucuları hacklemeye yönelik araçlar
+  {05} - Kamera Hackleme Araçları: - Kameraları ve ön kamerayı hacklemeye yönelik araçlar
+  {06} - Uzak Truva Atı RAT: - RAT virüsü oluşturmaya yönelik yardımcı programlar
       ⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣    ⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣    ⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣    ⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣    ⁣  
-  {07} - SQL injection Tool:  -  Tools for creating viruses
-  {08} - SocialMedia Hacking:  -  Tools for hacking social networks
-  {09} - SMS spaming Tools:  -  Utilities for spam and anonymous SMS
-  {10} - Vulnerability Analysis:  -  Systems for vulnerability analysis
-  {11} - DarkSearch Tool:  -  Tools for Secret and Onion search 
-  {12} - Phishing And IpHack:  -  Tools for phishing and fake websites
-  {13} - Passworld Attack:  -  Utilities for cracking passwords
-  {14} - Wordlist Generator:  -  Tools for Genering Worldlist
-  {15} - XSS Attack Tools:  -  Utilities for Attacking XSS
-  {16} - Discord leaks: - Discord mass users information
-  {17} - Telegram Info: - Mass Telegram users information
+  {07} - SQL enjeksiyon Aracı: - Virüs oluşturmaya yönelik araçlar
+  {08} - Sosyal Medya Hacking: - Sosyal ağları hacklemek için araçlar
+  {09} - SMS spam gönderme Araçları: - Spam ve anonim SMS için yardımcı programlar
+  {10} - Güvenlik Açığı Analizi: - Güvenlik açığı analizine yönelik sistemler
+  {11} - DarkSearch Aracı: - Gizli ve Soğan arama araçları 
+  {12} - Kimlik Avı ve IpHack: - Kimlik avı ve sahte web siteleri için araçlar
+  {13} - Passworld Attack: - Şifre kırmaya yönelik yardımcı programlar
+  {14} - Kelime Listesi Oluşturucu: - Kelime Listesi Oluşturma Araçları
+  {15} - XSS Saldırı Araçları: - XSS e Saldırmak için Yardımcı Programlar
+  {16} - Discord sızıntıları: - Discord toplu kullanıcı bilgileri
+  {17} - Telegram Bilgisi: - Toplu Telegram kullanıcı bilgileri
 
       ⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣    ⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣    ⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣    ⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣    ⁣  ⁣⁣  ⁣⁣ 
-  {18} - Other Tools:  -  Separate and other tools for hacking
-  {19} - Terminal Panel:  -  Termux control and special features
-  {20} - System Settings:  -  AllHackingTools control and special features
-  {21} - System License:  -  View the license in AllHackingTools
-  {22} - Update System:  -  Update system and all tools & menu and more utilitys
-  {23} - About System:  -  View system information and developer
-  {24} - Exit System:  -  Log out of the AllHackingTools system '|lolcat -p 3.8
+  {18} - Diğer Araçlar: - Bilgisayar korsanlığı için ayrı ve diğer araçlar
+  {19} - Terminal Paneli: - Termux kontrolü ve özel özellikler
+  {20} - Sistem Ayarları: - AllHackingTools kontrolü ve özel özellikler
+  {21} - Sistem Lisansı: - Lisansı alltool da görüntüleyin
+  {22} - Sistemi Güncelle: - Sistemi, tüm araçları, menüyü ve daha fazla yardımcı programı güncelleyin
+  {23} - Sistem Hakkında: - Sistem bilgilerini ve geliştiriciyi görüntüleyin
+  {24} - Sistemden Çıkış: - alltool sisteminden çıkış yapın '|lolcat -p 3.8
 
