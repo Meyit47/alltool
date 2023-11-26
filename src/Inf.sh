@@ -4,6 +4,6 @@ b="\033[1;34m"
 w="\033[0m"
 o="\033[1;33m"
 
-echo -e $w"["$g"INFO"$w"]"$b"Starting tool menu. Please wait a moment!"$w
+echo -e $w"["$g"BİLGİ"$w"]"$b"Araç menüsünü. Bir süre bekleyin lütfen çıkmayın!"$w
 sleep 0.1
-echo -e $w"["$o"WARN"$w"]"$b"A don't close termux app! And exit termux!"$w
+echo -e $w"["$o"UYARI"$w"]"$b"Termux uygulamasını kapatmayın! Ve termux'tan çıkmayın!"$w
