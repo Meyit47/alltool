@@ -1,5 +1,5 @@
 cd
 cd
-python3 AllHackingTools/.check/ServerStatusCheck.py
+python3 alltool/.check/ServerStatusCheck.py
 cd
 cd
