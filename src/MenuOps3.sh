@@ -25,4 +25,4 @@ echo'
   {21} - Sistem Lisansı: - Lisansı alltool da görüntüleyin
   {22} - Sistemi Güncelle: - Sistemi, tüm araçları, menüyü ve daha fazla yardımcı programı güncelleyin
   {23} - Sistem Hakkında: - Sistem bilgilerini ve geliştiriciyi görüntüleyin
-  {24} - Sistemden Çıkış: - alltool sisteminden çıkış yapın '|lolcat -p 3.8
+  {24} - Sistemden Çıkış: - alltool sisteminden çıkış yapın '|lolcat -p 3.5
