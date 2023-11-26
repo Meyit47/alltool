@@ -5,7 +5,7 @@ import random
 import sys
 
 os.system("clear")
-os.system("cd && cd AllHackingTools && clear && bash Logo.sh")
+os.system("cd && cd alltool && clear && bash Logo.sh")
 
 print("  \033[1;34m[ 01 ] >> \033[1;36;40mPoison")
 print("  \033[1;34m[ 02 ] >> \033[1;36;40mPuffy")
@@ -20,31 +20,31 @@ op=int(raw_input("TeRMuxBannER: "))
 
 if(op==1):
  os.system("clear")
- os.system("cd && cd AllHackingTools && bash src/CreateTermuxBannerPoison.sh")
+ os.system("cd && cd alltool && bash src/CreateTermuxBannerPoison.sh")
 elif(op==2):
  os.system("clear")
- os.system("cd && cd AllHackingTools && bash src/CreateTermuxBannerPuffy.sh")
+ os.system("cd && cd alltool && bash src/CreateTermuxBannerPuffy.sh")
 elif(op==3):
  os.system("clear")
- os.system("cd && cd AllHackingTools && bash src/CreateTermuxBannerAvatar.sh")
+ os.system("cd && cd alltool && bash src/CreateTermuxBannerAvatar.sh")
 elif(op==4):
  os.system("clear")
- os.system("cd && cd AllHackingTools && bash src/CreateTermuxBannerBloody.sh")
+ os.system("cd && cd alltool && bash src/CreateTermuxBannerBloody.sh")
 elif(op==5):
  os.system("clear")
- os.system("cd && cd AllHackingTools && bash src/CreateTermuxBannerModular.sh")
+ os.system("cd && cd alltool && bash src/CreateTermuxBannerModular.sh")
 elif(op==6):
  os.system("clear")
- os.system("cd && cd AllHackingTools && bash src/CreateTermuxBannerRusto.sh")
+ os.system("cd && cd alltool && bash src/CreateTermuxBannerRusto.sh")
 elif(op==7):
  os.system("clear")
- os.system("cd && cd AllHackingTools && bash src/CreateTermuxBanner.sh")
+ os.system("cd && cd alltool && bash src/CreateTermuxBanner.sh")
 elif(op==8):
  time.sleep(0.2)
- print("\033[1;31;40mQuiting System...")
+ print("\033[1;31;40mSistemden Çıkıyor...")
 else:
- print("\033[1;31;40mInvalid input. Reloading Tools") 
+ print("\033[1;31;40mGeçersiz Giriş.Araçlar Yeniden Yüklenmeli.") 
  time.sleep(1.6)
  os.system("cd")
- os.system("cd AllHackingTools")
+ os.system("cd alltool")
  os.system("python2 Files/TermuxS.py")
