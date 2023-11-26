@@ -23,14 +23,14 @@ echo "${YELLOW} |    |  /   |  \  |   |  \\___ \   |  |  / __ \|  |_|  |__ "
 echo "${YELLOW} |______/|___|  /__|___|  /____  > |__| (____  /____/____/  "
 echo "${YELLOW}              \/        \/     \/            \/             "
 echo ""
-echo -e $w"["$o"SYSTEM"$w"]"$w" Press enter to uninstall AllHackingTools"$w
+echo -e $w"["$o"SİSTEM"$w"]"$w" Alltool u kaldırmak için enter tuşuna basın"$w
 read a1
-echo -e $w"["$o"SYSTEM"$w"]"$w" Uninstalling AllHackingTools. Please wait a moment!"$w
+echo -e $w"["$o"SİSTEM"$w"]"$w" Alltool un kaldırılması için Bir süre bekleyin lütfen!"$w
 
 sleep 2.8
 cd
 cd
-cd AllHackingTools
+cd alltool
 cd termux-style
 ./uninstall
 cd
@@ -60,4 +60,4 @@ Rootkite-delete-qiq
 cd
 cd
 cd AutoUpdateMyTools
-bash Files/UninstallAllHackingTools.sh
+bash Files/Uninstallalltool.sh
