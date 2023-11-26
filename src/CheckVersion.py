@@ -10,13 +10,13 @@ import time
 import os
 import sys
 
-print(G + '[+]' + C + ' Checking Dependencies And Packages...' + W)
+print(G + '[+]' + C + ' Bağımlılıkları ve Paketleri Kontrol Etme...' + W)
 pkgs = ['python3', 'pip', 'php', 'ssh', 'pip2', 'wget', 'curl', 'python', 'python2', 'toilet', 'neofetch', 'figlet', 'lolcat', 'clang', 'w3m', 'jq', 'ruby', 'pv']
 inst = True
 for pkg in pkgs:
 	present = which(pkg)
 	if present == None:
-		print(R + '[-] ' + W + pkg + C + ' is not Installed!')
+		print(R + '[-] ' + W + pkg + C + ' yüklü değil!')
 		inst = False
 	else:
 		pass
@@ -25,9 +25,9 @@ if inst == False:
 else:
 	pass
 
-console.arrowLog(0, "depencues succesful checked")
-console.arrowInfo(2, "starting up")
-console.arrowInfo(1, "starting update checker")
+console.arrowLog(0, "başarılı bir şekilde kontrol edildi")
+console.arrowInfo(2, "başlıyor")
+console.arrowInfo(1, "güncelleme denetleyicisi başlatılıyor")
 import csv
 import json
 import argparse
@@ -40,7 +40,7 @@ result = ''
 version = '2.7.4'
 
 def ver_check():
-	print(G + '[+]' + C + ' Checking the AllHackingTools for updates....', end='')
+	print(G + '[+]' + C + ' Güncellemeler için alltool u kontrol etme....', end='')
 	ver_url = 'https://raw.githubusercontent.com/mishakorzik/AllHackingTools/main/Castom/version.txt'
 	try:
 		ver_rqst = requests.get(ver_url)
@@ -50,19 +50,19 @@ def ver_check():
 			github_ver = github_ver.strip()
 
 			if version == github_ver:
-				print(C + '[' + G + ' No Updates ' + C +']' + '\n')
+				print(C + '[' + G + ' Güncelleme yok ' + C +']' + '\n')
 			else:
-				print(C + '[' + R + ' Available : {} '.format(github_ver) + C + ']' + '\n')
-				print(R + '[-] ' + C + 'Please update the system: msdconsoleUPD')
+				print(C + '[' + R + ' Mevcut : {} '.format(github_ver) + C + ']' + '\n')
+				print(R + '[-] ' + C + 'Lütfen sistemi güncelleyin: msdconsoleUPD')
 		else:
-			print(C + '[' + R + ' Status : {} '.format(ver_sc) + C + ']' + '\n')
+			print(C + '[' + R + ' Durum : {} '.format(ver_sc) + C + ']' + '\n')
 	except Exception as e:
-		print('\n' + R + '[-]' + C + ' Exception : ' + W + str(e))
+		print('\n' + R + '[-]' + C + ' İstisna : ' + W + str(e))
 
 try:
 	ver_check()
 
 except KeyboardInterrupt:
-	print ('\n' + R + '[!]' + C + ' Keyboard Interrupt.' + W)
-	os.system("cd && bash AllHackingTools/.check/ConfigurationOptions.sh")
+	print ('\n' + R + '[!]' + C + ' Klavye Kesintisi.' + W)
+	os.system("cd && bash alltool/.check/ConfigurationOptions.sh")
 
