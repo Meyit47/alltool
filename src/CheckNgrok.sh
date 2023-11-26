@@ -6,23 +6,23 @@ green='\033[92m'
 
 arch=`arch`
 if [ -f "ngrok" ]; then
-echo -e "$green[+]-[Ngrok]..........................[ SUCCESFUL ]"
+echo -e "$green[+]-[Ngrok]..........................[ BAŞARILI ]"
 sleep 1.5
 else
-echo -e "$red[-]-[Ngrok]........................[ NOT FOUND ]"
+echo -e "$red[-]-[Ngrok]........................[ BULUNAMADI ]"
 sleep 0.2
-echo -e "$yellow[!]-[Downloading:Ngrok.............[ INSTALLING ]"
+echo -e "$yellow[!]-[İndiriliyor:Ngrok.............[ KURULUM ]"
 sleep 1.2
 cd 
 cd
-cd AllHackingTools
+cd alltool
 cd Castom
 cp ngrok /data/data/com.termux/files/home/
 cd
 cd
 chmod +x ngrok
 sleep 2
-echo -e "$yellow[+]-[Ngrok Installed!..............[ INSTALLED ]"
+echo -e "$yellow[+]-[Ngrok İNDİRİLMİŞ!..............[ KURULMUŞ ]"
 sleep 1.5
 fi
 
