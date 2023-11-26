@@ -1,39 +1,39 @@
 echo '
-  [01] >> Information Gathering:  -  Collects information from database       ~ /AllHackingTools/.check
-  [02] >> Exploitation Tools:  -  selection of tools for operation and hacking ~ /AllHackingTools/Files
-  [03] >> Sniffing and Spoofing:  -  Tools for forgery of data and databases  ~ /AllHackingTools/Files
-  [04] >> Web Attack Tools:  -  Tools for hacking websites and servers      ~ /AllHackingTools/Files
-  [05] >> Cam Hacking Tools:  -  Tools for hacking cams and front camera  ~ /AllHackingTools/Files
-  [06] >> Remote Trojan RAT:  -  Utilities for creating RAT virus        ~ /AllHackingTools/Files
+  [01] >> Bilgi Toplama: - Veritabanından bilgi toplar.                       ~ /alltool/.check
+  [02] >> Sömürü Araçları: - operasyon ve hackleme için araçların seçimi      ~ /alltool/Files
+  [03] >> Sniffing ve Spoofing: - Veri ve veri tabanlarında sahtecilik        ~ /alltool/Files
+  [04] >> Web Saldırısı Araçları: - Web sitelerini ve sunucuları hackleme     ~ /alltool/Files
+  [05] >> Kamera Hackleme Araçları: - Kameraları ve ön kamerayı hackleme      ~ /alltool/Files
+  [06] >> Uzak Truva Atı RAT: - RAT virüsü oluşturmaya yönelik yardımcılar    ~ /alltool/Files
       ⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣    ⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣    ⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣    ⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣    ⁣  
-  [07] >> SQL injection Tool:  -  Tools for creating viruses            ~ /AllHackingTools/Files
-  [08] >> SocialMedia Hacking:  -  Tools for hacking social networks    ~ /AllHackingTools/Files
-  [09] >> SMS spaming Tools:  -  Utilities for spam and anonymous SMS    ~ /AllHackingTools/.check
-  [10] >> Vulnerability Analysis:  -  Systems for vulnerability analysis  ~ /AllHackingTools/Files
-  [11] >> DarkSearch Tool:  -  Tools for Secret and Onion search         ~ /AllHackingTools/Files
-  [12] >> Phishing And IpHack:  -  Tools for phishing and fake websites ~ /AllHackingTools/Files
-  [13] >> Passworld Attack:  -  Utilities for cracking passwords        ~ /AllHackingTools/Files
-  [14] >> Wordlist Generator:  -  Tools for Genering Worldlist         ~ /AllHackingTools/Files
-  [15] >> XSS Attack Tools:  -  Utilities for Attacking XSS           ~ /AllHackingTools/Files
-  [16] >> DiscordMenu:      -  No description
-  [17] >> TelegramMenu:   - No description
+  [07] >> SQL enjeksiyon Aracı: - Virüs oluşturmaya yönelik araçlar           ~ /alltool/Files
+  [08] >> Sosyal Medya Hacking: - Sosyal ağları hacklemek için araçlar        ~ /alltool/Files
+  [09] >> SMS spam gönderme  : -  Spam ve anonim SMS için yardımcılar         ~ /alltool/.check
+  [10] >> Güvenlik Açığı Analizi: - Güvenlik açığı analizi sistemleri         ~ /alltool/Files
+  [11] >> DarkSearch Arama: - Gizli ve ilginç arama araçları                  ~ /alltool/Files
+  [12] >> Phishing Ve IpHack: - Kimlik avı ve sahte web site araçları.        ~ /alltool/Files
+  [13] >> Parola Attack: - Şifre kırmaya yönelik yardımcılar                  ~ /alltool/Files
+  [14] >> Kelime Listesi Oluşturucu: - Kelime Oluşturma Araçları              ~ /alltool/Files
+  [15] >> XSS Saldırı Araçları: - XSS Saldırısı çin Yardımcılar               ~ /alltool/Files
+  [16] >> DiscordMenü: - Açıklama yok
+  [17] >> TelegramMenü: - Açıklama yok
       ⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣    ⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣    ⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣    ⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣⁣  ⁣    ⁣  ⁣⁣  ⁣⁣ 
-  [18] >> Other tools:  -  Separate and other tools for hacking      ~ /AllHackingTools/.check
-  [19] >> Terminal Panel:  -  Termux control and special features    ~ /AllHackingTools/.check
-  [20] >> System Settings:  -  AllHackingTools control and features   ~ /AllHackingTools/.settings
-  [21] >> System License:  -  View the license in AllHackingTools     ~ /AllHackingTools/.settings 
-  [22] >> Update System:  -  Update system and all tools & menu       ~ /AllHackingTools/.check  
-  [23] >> About System:  -  View system information and developer    ~ /AllHackingTools/src 
-  [24] >> Exit System:  -  Log out of the AllHackingTools system    ~ /AllHackingTools/  
+  [18] >> Diğer araçlar: - Bilgisayar korsanlığı ve diğer araçlar            ~ /alltool/.check
+  [19] >> Terminal Paneli: - Termux kontrolü ve özel özellikler              ~ /alltool/.check
+  [20] >> Sistem Ayarları: - alltool kontrolü ve özellikleri                 ~ /alltool/.settings
+  [21] >> Sistem Lisansı: - Lisansı alltool da görüntüleyin                  ~ /alltool/.settings 
+  [22] >> Sistemi Güncelle: - Sistemi ve tüm menüyü güncelleyin              ~ /alltool/.check  
+  [23] >> Sistem Hakkında: - Sistem bilgilerini  görüntüleyin                ~ /alltool/src 
+  [24] >> Sistemden Çıkış: - AllHackingTools sisteminden çıkış yapın.        ~ /alltool/  
 
-  [000]————{ DEBUG | DEVELOPER } Misha Korzhik
-  [041] >> Edit MainMenu; - edit MainMenu             (WARNING)    ~ /AllHackingTools/     
-  [042] >> Clear All Data; - clear unnecessary files  (WARNING)    ~ /AllHackingTools/  
-  [043] >> View Directory; - view folder no detail                ~ /AllHackingTools/ 
-  [044] >> Reset All Data; - reload date & files                 ~ /AllHackingTools/    
-  [045] >> Remove data; - delete some date          (WARNING)    ~ /AllHackingTools/.settings 
-  [046] >> View Folder; - detailed view of folders              ~ /AllHackingTools/folder
-  [047] >> Off Server; - no description             (WARNING)   ~ /sys/dll                 '|lolcat -p 1.7
+  [000]————{ HATA AYIKLAMA | GELİŞTİRİCİ } MEYİTZADE
+  [041] >> Ana Menüye Düzen; - Ana Menüye düzen                (WARNING)     ~ /alltool/     
+  [042] >> Tüm Verileri Temizle; - gereksiz dosyaları temizle  (WARNING)     ~ /alltool/  
+  [043] >> Dizini Görüntüle; - klasörü ayrıntısız görüntüle                  ~ /alltool/ 
+  [044] >> Tüm Verileri Sıfırla; - tarihi ve dosyaları tekrar yükle          ~ /alltool/    
+  [045] >> Verileri kaldırın; - bazı tarihleri ​​sil             (WARNING)     ~ /alltool/Files 
+  [046] >> Dosya görüntüle; - klasörlerin ayrıntılı görünümü                 ~ /alltool/folder
+  [047] >> Sunucu Kapalı; - açıklama yok                       (WARNING)     ~ /sys/dll '|lolcat -p 1.7
 
 
 
