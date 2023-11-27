@@ -5,16 +5,16 @@ w="\033[0m"
 
 clear
 cd
-cd AllHackingTools
+cd alltool
 bash Logo.sh
 cd HatCloud
 echo ""
-echo -e $b">>>"$w" Write the name of the site without http & https: "$g"HatCloud"$w
+echo -e $b">>>"$w" Sitenin adını http olmadan yazın Sitenin adını httpi olmadan yazın & https: "$g"HatCloud"$w
 read siteURL3
 sleep 0.1
-echo -e $b">>>"$w" Please wait a moment: "$g"HatCloud"$w
+echo -e $b">>>"$w" Bir süre bekleyin lütfen: "$g"HatCloud"$w
 sleep 0.6
 ruby hatcloud.rb -b $siteURL3
 cd
 cd
-cd AllHackingTools
+cd alltool
