@@ -5,14 +5,14 @@ w="\033[0m"
 
 clear
 cd
-cd AllHackingTools
+cd alltool
 clear
 python2 ismtp.py
-echo "Please enter all your required settings to run the program."
+echo "Programı çalıştırmak için lütfen gerekli tüm ayarlarınızı girin."
 echo -e $b">>>"$w" Consoler "$g"iSMTP"$w
 read opt
 sleep 0.1
 python2 ismtp.py $opt
 cd
 cd
-cd AllHackingTools
+cd alltool
