@@ -5,37 +5,37 @@ import random
 import sys
 
 os.system("clear")
-os.system("cd && cd AllHackingTools && clear && bash Logo.sh")
+os.system("cd && cd alltool && clear && bash Logo.sh")
 
-print("  \033[1;34m[ 01 ] >> \033[1;36;40mSeeker - Accurately Locate Smartphones and GPS")
-print("  \033[1;34m[ 02 ] >> \033[1;36;40mTrape - People tracker on the Internet OSINT")
-print("  \033[1;34m[ 03 ] >> \033[1;36;40mExit System - log out AllHackingTools")
-print("  \033[1;34m[ 04 ] >> \033[1;36;40mBack To MainMenu")
+print("  \033[1;34m[ 01 ] >> \033[1;36;40mSeeker - Akıllı Telefonların ve GPS'in Doğru Yerini Belirleyin")
+print("  \033[1;34m[ 02 ] >> \033[1;36;40mTrape - İnternet OSINT'te kişi takibi")
+print("  \033[1;34m[ 03 ] >> \033[1;36;40mSistemden çıkış - alltool dan çıkış ")
+print("  \033[1;34m[ 04 ] >> \033[1;36;40mAna menüye dön")
 
 op=int(raw_input("IpTrac1Ng: "))
 
 if(op==1):
  os.system("clear")
- os.system("cd && cd AllHackingTools")
- print("Open a second window in Termux and run ngrok on port 8080: ./ngrok http 8080")
+ os.system("cd && cd alltool")
+ print("Termux'ta ikinci bir pencere açın ve 8080 numaralı bağlantı noktasında ngrok'u çalıştırın: ./ngrok http 8080")
  time.sleep(1.4)
- print("Warning AllHackingTools has already downloaded ngrok")
+ print("Uyarı alltool zaten ngrok'u indirdi")
  time.sleep(2.3)
- os.system("cd && cd AllHackingTools && cd seeker && python3 seeker.py -t manual && cd && cd AllHackingTools && python2 MainMenu.py")
+ os.system("cd && cd alltool && cd seeker && python3 seeker.py -t manual && cd && cd alltool && python2 MainMenu.py")
 elif(op==2):
  os.system("clear")
- os.system("cd && cd AllHackingTools && cd trape && python trape.py && cd && cd AllHackingTools && python2 MainMenu.py")
+ os.system("cd && cd alltool && cd trape && python trape.py && cd &Geçersiz Giriş. Yeniden Yükleme Araçları& cd alltool && python2 MainMenu.py")
 elif(op==3):
  time.sleep(0.2)
- print("\033[1;31;40mQuiting System...")
+ print("\033[1;31;40mSistemden Çıkış...")
  sys.exit()
 elif(op==4):
  os.system("cd")
- os.system("cd AllHackingTools")
+ os.system("cd alltool")
  os.system("python2 MainMenu.py")
 else:
- print("\033[1;31;40mInvalid input. Reloading Tools") 
+ print("\033[1;31;40mGeçersiz Giriş. Yeniden Yükleme Araçları") 
  time.sleep(1.6)
  os.system("cd")
- os.system("cd AllHackingTools")
+ os.system("cd alltool")
  os.system("python2 Files/AndroidMenu.py")
