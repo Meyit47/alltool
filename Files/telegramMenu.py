@@ -7,12 +7,12 @@ import sys
 os.system("clear")
 os.system("cd && cd AllHackingTools && clear && bash Logo.sh")
 
-print("  \033[1;34m[ 01 ] >> \033[1;36;40mTGarama - Telegram kullanıcı bilgileri")
-print("  \033[1;34m[ 02 ] >> \033[1;36;40mLyzen - Discord Leak kullanıcıları ")
+print("  \033[1;34m[ 01 ] >> \033[1;36;40mTGarama - TeleGram kullanıcı bilgileri")
+print("  \033[1;34m[ 02 ] >> \033[1;36;40mLyzem - TeleGram kaçak kullanıcıları bul ")
 print("  \033[1;34m[ 03 ] >> \033[1;36;40mAna menüye dön")
 print("  \033[1;34m[ 04 ] >> \033[1;36;40mSistemden çıkış")
 
-op=int(raw_input("D1sc0Rd: "))
+op=int(raw_input("TeleGram: "))
 
 if(op==1):
  print("Siteye gidin ve sitede listelenen her şeyi girin")
