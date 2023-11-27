@@ -3,15 +3,15 @@ cd
 cd 
 cd ..
 cd usr
-mkdir AllHackingTools
+mkdir alltool
 cd
 cd
-cd AllHackingTools
+cd alltool
 cd src
 cp ngrok.sh /data/data/com.termux/files/usr
 cd
 cd
-cd AllHackingTools
+cd alltool
 bash Files/CamHackFiles.sh
 bash Files/AndroidFiles.sh
 bash Files/SocialFiles.sh
@@ -39,7 +39,7 @@ bash Files/TermuxSFiles.sh
 bash Files/OtherFiles.sh
 cd
 cd
-cd AllHackingTools
+cd alltool
 cd Files
 bash TypeTermuxAndLinux.sh
 cd
@@ -52,30 +52,30 @@ sleep 0.2
 cd
 cd 
 clear
-python3 AllHackingTools/.check/ServerStatusCheck.py
+python3 alltool/.check/ServerStatusCheck.py
 cd
 cd
-bash AllHackingTools/.check/ServerConfig.sh
+bash alltool/.check/ServerConfig.sh
 clear
 cd
 cd 
-cd && cd AllHackingTools && python2 src/TerminalBanner.py
+cd && cd alltool && python2 src/TerminalBanner.py
 cd
 cd
-cd AllHackingTools
+cd alltool
 cd Tool
 chmod +x folder
 chmod +x os
-mv folder /data/data/com.termux/files/home/AllHackingTools
-mv os /data/data/com.termux/files/home/AllHackingTools
+mv folder /data/data/com.termux/files/home/alltool
+mv os /data/data/com.termux/files/home/alltool
 cd
 cd
-cd AllHackingTools
+cd alltool
 cd Files
 python get.py
 cd
 cd
-cd AllHackingTools
+cd alltool
 cd .logs 
 pip freeze > requirements.txt
 cd
@@ -114,13 +114,13 @@ echo '
 ██║░░██║██║░░██║██║╚████║██╔══╝░░
 ██████╔╝╚█████╔╝██║░╚███║███████╗
 ╚═════╝░░╚════╝░╚═╝░░╚══╝╚══════╝
-Developer : mishakorzhik
-created on: 23 05 2021
+Developer : MEYITZADE
+created on: 27 11 2023
 code      : python, bash, php
 '|lolcat -p 1.0
-echo -e $b"[^_^]"$w" AllHackingTools donate: "$g"https://www.buymeacoffee.com/misakorzik"$w
-echo -e $b"[^_^]"$w" SuccesFull Installed: "$g"AllHackingTools"$w
-echo -e $b"[^_^]"$w" Run Command to Start Tool: "$g"msdc & msdconsole"$w
-echo -e $b"[^_^]"$w" Command to Update Tool: "$g"msdconsoleUPD"$w
+echo -e $b"[^_^]"$w" alltool BAĞIŞ: "$g"https://t.me/Meyit47"$w
+echo -e $b"[^_^]"$w" Başarılıyla Yüklendi: "$g"alltool"$w
+echo -e $b"[^_^]"$w" Aracı Başlatmak için Komutu Çalıştırın: "$g"msdc & msdconsole"$w
+echo -e $b"[^_^]"$w" Aracı Güncelleme Komutu: "$g"msdconsoleUPD"$w
 cd
 cd
