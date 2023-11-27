@@ -4,16 +4,16 @@ REDBG="$(printf '\033[41m')"  GREENBG="$(printf '\033[42m')"  ORANGEBG="$(printf
 MAGENTABG="$(printf '\033[45m')"  CYANBG="$(printf '\033[46m')"  WHITEBG="$(printf '\033[47m')" BLACKBG="$(printf '\033[40m')"
 DEFAULT_FG="$(printf '\033[39m')"  DEFAULT_BG="$(printf '\033[49m')"
 
-echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Loading Installing In Termux..,"
+echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Yükleniyor Termux'a Kurulum..,"
 echo ""
-echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}All utilities will work..."
+echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Tüm yardımcı programlar çalışacak..."
 echo ""
 cd
 cd
-cd AllHackingTools
+cd alltool
 cd termux-style
 ./uninstall
-cd && cd && cd AllHackingTools
+cd && cd && cd alltool
 git clone https://github.com/adi1090x/termux-style
 cd termux-style
 ./install
@@ -33,7 +33,7 @@ cd qiq
 bash install.sh
 cd
 cd
-cd AllHackingTools
+cd alltool
 cd Termux-os
 bash TermuxNewKeys.sh
 cd
@@ -43,17 +43,17 @@ rm -rf Termux-os
 rm -rf qiq
 cd
 cd
-cd AllHackingTools
+cd alltool
 cp -r Termux-os /data/data/com.termux/files/home
 am broadcast --user 0 -a com.termux.app.reload_style com.termux > /dev/null
 cd
 cd
-cd AllHackingTools
+cd alltool
 cd .fonts
 chmod +x *
 cp * /data/data/com.termux/files/usr/share/figlet
 cd
-cd AllHackingTools
+cd alltool
 cd Tool
 cp msdc /data/data/com.termux/files/usr/bin/
 cp msdconsole /data/data/com.termux/files/usr/bin/
@@ -92,5 +92,5 @@ rm -rf Termux-os
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 sleep 0.1
 am broadcast --user 0 -a com.termux.app.reload_style com.termux > /dev/null
-echo -n "${BLUE}[${GREEN}+${BLUE}] ${GREEN}Succesful Installed..!"
+echo -n "${BLUE}[${GREEN}+${BLUE}] ${GREEN}Başarıyla Yüklendi..!"
 echo ""
