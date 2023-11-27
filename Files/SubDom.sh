@@ -9,11 +9,11 @@ cd alltool
 bash src/RunLogo.sh
 cd takeover
 echo ""
-echo -e $b">>>"$w" Site adresini yazın: "$g"Devralmak"$w
+echo -e $b">>>"$w"Site adresini yazın: "$g"Devralmak"$w
 read siteURL
 sleep 0.1
-echo -e $b">>>"$w" Bir süre bekleyin lütfen: "$g"Devralmak"$w
+echo -e $b">>>"$w"Bir süre bekleyin lütfen: "$g"Devralmak"$w
 sleep 0.6
-python3 takeover.py -d $siteURL -v
+python3 takeover.py -d $siteURL -v 
 cd
 cd alltool
