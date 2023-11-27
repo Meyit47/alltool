@@ -13,28 +13,28 @@ echo -e "$yellow |   |   |  \___  \  |  |  / __ \|  |_|  |_\  ___/|  | \/ "
 echo -e "$yellow |___|___|  /____  > |__| (____  /____/____/\___  >__|    "
 echo -e "$yellow          \/     \/            \/               \/        "
 echo ""
-echo -e "$orange [>] $yellow Tool Name: AllHackingTools "
-echo -e "$orange [>] $yellow Developer: Misha Korzhik " 
+echo -e "$orange [>] $yellow Tool Adı: alltool "
+echo -e "$orange [>] $yellow Geliştirici: MEYITZADE " 
 
 which git > /dev/null 2>&1
 if [ "$?" -eq "0" ]; then
-echo -e "$green[+]-[Git].............................[ SUCCESFUL ]"
+echo -e "$green[+]-[Git].............................[ BAŞARILI ]"
 sleep 1.5
 else
-echo -e "$red[-]-[Git]..........................[ FAILED ]"
+echo -e "$red[-]-[Git]..........................[ ARIZALI ]"
 sleep 1.5
-echo -e "$yellow[!][Installing Module Git...]"
+echo -e "$yellow[!][Git Modülü Yükleniyor...]"
 apt install git 
 fi
 
 which python > /dev/null 2>&1
 if [ "$?" -eq "0" ]; then
-echo -e "$green[+]-[Python]..........................[ SUCCESFUL ]"
+echo -e "$green[+]-[Python]..........................[ BAŞARILI ]"
 sleep 1.5
 else
-echo -e "$red[-]-[Python].......................[ FAILED ]"
+echo -e "$red[-]-[Python].......................[ ARIZALI ]"
 sleep 1.5
-echo -e "$yellow[!][Installing Module Python...]"
+echo -e "$yellow[!][Python Modülü Yükleniyor...]"
 apt install python > /dev/null
 apt install python
 apt install python2
@@ -46,122 +46,122 @@ fi
 
 which cowsay > /dev/null 2>&1
 if [ "$?" -eq "0" ]; then
-echo -e "$green[+]-[Cowsay]..........................[ SUCCESFUL ]"
+echo -e "$green[+]-[Cowsay]..........................[ BAŞARILI ]"
 sleep 1.5
 else
-echo -e "$red[-]-[Cowsay].......................[ FAILED ]"
+echo -e "$red[-]-[Cowsay].......................[ ARIZALI ]"
 sleep 1.5
-echo -e "$yellow[!][Installing Module Cowsay...]"
+echo -e "$yellow[!][Cowsay Modülü Yükleniyor...]"
 apt install cowsay
 fi
 
 which wget > /dev/null 2>&1
 if [ "$?" -eq "0" ]; then
-echo -e "$green[+]-[Wget]............................[ SUCCESFUL ]"
+echo -e "$green[+]-[Wget]............................[ BAŞARILI ]"
 sleep 1.5
 else
-echo -e "$red[-]-[Wget].........................[ FAILED ]"
+echo -e "$red[-]-[Wget].........................[ ARIZALI ]"
 sleep 1.5
-echo -e "$yellow[!][Installing Module Wget...]"
+echo -e "$yellow[!][Wget Modül Yükleniyor...]"
 apt install wget
 fi
 
 which ruby > /dev/null 2>&1
 if [ "$?" -eq "0" ]; then
-echo -e "$green[+]-[Ruby]............................[ SUCCESFUL ]"
+echo -e "$green[+]-[Ruby]............................[ BAŞARILI ]"
 sleep 1.5
 else
-echo -e "$red[-]-[Ruby].........................[ FAILED ]"
+echo -e "$red[-]-[Ruby].........................[ ARIZALI ]"
 sleep 1.5
-echo -e "$yellow[!][Installing Module Ruby...]"
+echo -e "$yellow[!][Ruby Modülü Yükleniyor...]"
 apt install ruby 
 fi
 
 which toilet > /dev/null 2>&1
 if [ "$?" -eq "0" ]; then
-echo -e "$green[+]-[Toilet]..........................[ SUCCESFUL ]"
+echo -e "$green[+]-[Toilet]..........................[ BAŞARILI ]"
 sleep 1.5
 else
-echo -e "$red[-]-[Toilet].......................[ FAILED ]"
+echo -e "$red[-]-[Toilet].......................[ ARIZALI ]"
 sleep 1.5
-echo -e "$yellow[!][Installing Module Toilet...]"
+echo -e "$yellow[!][Toilet Modülü Yükleniyor...]"
 apt install toilet 
 fi
 
 which figlet > /dev/null 2>&1
 if [ "$?" -eq "0" ]; then
-echo -e "$green[+]-[Figlet]..........................[ SUCCESFUL ]"
+echo -e "$green[+]-[Figlet]..........................[ BAŞARILI ]"
 sleep 1.5
 else
-echo -e "$red[-]-[Figlet].......................[ FAILED ]"
+echo -e "$red[-]-[Figlet].......................[ ARIZALI ]"
 sleep 1.5
-echo -e "$yellow[!][Installing Module Figlet...]"
+echo -e "$yellow[!][Figlet Modülü Yükleniyor...]"
 apt install figlet 
 fi
 
 which lolcat > /dev/null 2>&1
 if [ "$?" -eq "0" ]; then
-echo -e "$green[+]-[Lolcat]..........................[ SUCCESFUL ]"
+echo -e "$green[+]-[Lolcat]..........................[ BAŞARILI ]"
 sleep 1.5
 else
-echo -e "$red[-]-[Lolcat].......................[ FAILED ]"
+echo -e "$red[-]-[Lolcat].......................[ ARIZALI ]"
 sleep 1.5
-echo -e "$yellow[!][Installing Module Lolcat...]"
+echo -e "$yellow[!][Lolcat Modülü Yükleniyor...]"
 gem install lolcat
 fi
 
 which neofetch > /dev/null 2>&1
 if [ "$?" -eq "0" ]; then
-echo -e "$green[+]-[Neofetch]........................[ SUCCESFUL ]"
+echo -e "$green[+]-[Neofetch]........................[ BAŞARILI ]"
 sleep 1.5
 else
-echo -e "$red[-]-[Neofetch].....................[ FAILED ]"
+echo -e "$red[-]-[Neofetch].....................[ ARIZALI ]"
 sleep 1.5
-echo -e "$yellow[!][Installing Module Neofetch...]"
+echo -e "$yellow[!][Neofetch Modülü Yükleniyor...]"
 apt install neofetch
 fi
 
 which php > /dev/null 2>&1
 if [ "$?" -eq "0" ]; then
-echo -e "$green[+]-[PHP].............................[ SUCCESFUL ]"
+echo -e "$green[+]-[PHP].............................[ BAŞARILI ]"
 sleep 1.5
 else
-echo -e "$red[-]-[PHP]..........................[ FAILED ]"
+echo -e "$red[-]-[PHP]..........................[ ARIZALI ]"
 sleep 1.5
-echo -e "$yellow[!][Installing Module PHP...]"
+echo -e "$yellow[!][PHP Modülü Yükleniyor...]"
 apt install php
 fi
 
 which ruby > /dev/null 2>&1
 if [ "$?" -eq "0" ]; then
-echo -e "$green[+]-[Clang]...........................[ SUCCESFUL ]"
+echo -e "$green[+]-[Clang]...........................[ BAŞARILI ]"
 sleep 1.5
 else
-echo -e "$red[-]-[Clang]........................[ FAILED ]"
+echo -e "$red[-]-[Clang]........................[ ARIZALI ]"
 sleep 1.5
-echo -e "$yellow[!][Installing Module Clang...]"
+echo -e "$yellow[!][Clang Modülü Yükleniyor...]"
 apt install clang
 fi
 
 which zip > /dev/null 2>&1
 if [ "$?" -eq "0" ]; then
-echo -e "$green[+]-[Zip].............................[ SUCCESFUL ]"
+echo -e "$green[+]-[Zip].............................[ BAŞARILI ]"
 sleep 1.5
 else
-echo -e "$red[-]-[Zip]..........................[ FAILED ]"
+echo -e "$red[-]-[Zip]..........................[ ARIZALI ]"
 sleep 1.5
-echo -e "$yellow[!][Installing Module Zip...]"
+echo -e "$yellow[!][Zip Modülü Yükleniyor...]"
 apt install zip
 fi
 
 which pip > /dev/null 2>&1
 if [ "$?" -eq "0" ]; then
-echo -e "$green[+]-[PIP].............................[ SUCCESFUL ]"
+echo -e "$green[+]-[PIP].............................[ BAŞARILI ]"
 sleep 1.5
 else
-echo -e "$red[-]-[PIP]..........................[ FAILED ]"
+echo -e "$red[-]-[PIP]..........................[ ARIZALI ]"
 sleep 1.5
-echo -e "$yellow[!][Installing Module pip...]"
+echo -e "$yellow[!][pip Modülü Yükleniyor...]"
 apt install pip
 pkg install pip
 pkg install pip2
@@ -172,45 +172,45 @@ fi
 
 which zsh > /dev/null 2>&1
 if [ "$?" -eq "0" ]; then
-echo -e "$green[+]-[zsh].............................[ SUCCESFUL ]"
+echo -e "$green[+]-[zsh].............................[ BAŞARILI ]"
 sleep 1.5
 else
-echo -e "$red[-]-[zsh]..........................[ FAILED ]"
+echo -e "$red[-]-[zsh]..........................[ ARIZALI ]"
 sleep 1.5
-echo -e "$yellow[!][Installing Module zsh...]"
+echo -e "$yellow[!][zsh Modülü Yükleniyor...]"
 apt install zsh 
 fi
 
 which pv > /dev/null 2>&1
 if [ "$?" -eq "0" ]; then
-echo -e "$green[+]-[pv]..............................[ SUCCESFUL ]"
+echo -e "$green[+]-[pv]..............................[ BAŞARILI ]"
 sleep 1.5
 else
-echo -e "$red[-]-[pv]...........................[ FAILED ]"
+echo -e "$red[-]-[pv]...........................[ ARIZALI ]"
 sleep 1.5
-echo -e "$yellow[!][Installing Module pv...]"
+echo -e "$yellow[!][pv Modülü Yükleniyor...]"
 apt install pv
 fi
 
 which curl > /dev/null 2>&1
 if [ "$?" -eq "0" ]; then
-echo -e "$green[+]-[Curl]............................[ SUCCESFUL ]"
+echo -e "$green[+]-[Curl]............................[ BAŞARILI ]"
 sleep 1.5
 else
-echo -e "$red[-]-[Curl].........................[ FAILED ]"
+echo -e "$red[-]-[Curl].........................[ ARIZALI ]"
 sleep 1.5
-echo -e "$yellow[!]-[Installing Module Curl...]"
+echo -e "$yellow[!]-[Curl Modülü Yükleniyor...]"
 apt install curl 
 fi
 
 which w3m > /dev/null 2>&1
 if [ "$?" -eq "0" ]; then
-echo -e "$green[+]-[w3m].............................[ SUCCESFUL ]"
+echo -e "$green[+]-[w3m].............................[ BAŞARILI ]"
 sleep 1.5
 else
-echo -e "$red[-]-[w3m]..........................[ FAILED ]"
+echo -e "$red[-]-[w3m]..........................[ ARIZALI ]"
 sleep 1.5
-echo -e "$yellow[!]-[Installing Module w3m...]"
+echo -e "$yellow[!]-[w3m Modülü Yükleniyor...]"
 apt install w3m 
 fi
 
@@ -222,19 +222,19 @@ green='\033[92m'
 
 cd 
 cd
-cd AllHackingTools
+cd alltool
 cd Castom
 cp ngrok /data/data/com.termux/files/home/
 cd
 cd
 chmod +x ngrok
 sleep 2
-echo -e "$yellow[+]-[Ngrok Installed!..............[ INSTALLED ]"
+echo -e "$yellow[+]-[Ngrok Yüklendi!..............[ KURULDU ]"
 sleep 1.5
 fi
 
 echo -e $yellow
-echo -n [!] Installing Depencies...= ;
+echo -n [!] Bağımlılıklar Yükleniyor...= ;
 sleep 3 & while [ "$(ps a | awk '{print $1}' | grep $!)" ] ; do for X in '-' '\' '|' '/'; do echo -en "\b$X"; sleep 0.1; done; done 
 echo ""
 
