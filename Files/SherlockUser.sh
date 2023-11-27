@@ -5,18 +5,18 @@ w="\033[0m"
 
 clear
 cd
-cd AllHackingTools
+cd alltool
 bash Logo.sh
 cd sherlock
 echo ""
-echo -e $b">>>"$w" Write the UserName: "$g"Sherlock"$w
+echo -e $b">>>"$w" Kullanıcı Adını Yazın: "$g"Sherlock"$w
 read NameOrUser
 sleep 0.1
-echo -e $b">>>"$w" Please wait a moment: "$g"Sherlock"$w
+echo -e $b">>>"$w" Bir süre bekleyin lütfen: "$g"Sherlock"$w
 sleep 0.8
 clear
 python3 sherlock.py $NameOrUser
 cd
 cd
-cd AllHackingTools
+cd alltool
 python3 src/Timer3.py
