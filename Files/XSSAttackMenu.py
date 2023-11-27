@@ -10,7 +10,7 @@ os.system("cd && cd alltool && clear && bash Logo.sh")
 print("  \033[1;34m[ 01 ] >> \033[1;36;40mXSSCon - Basit XSS Tarayıcı aracı")
 print("  \033[1;34m[ 02 ] >> \033[1;36;40mXanXSS - Basit bir XSS bulma aracı")
 print("  \033[1;34m[ 03 ] >> \033[1;36;40mXSStrike - En gelişmiş XSS tarayıcı")
-print("  \033[1;34m[ 04 ] >> \033[1;36;40mSistemden çıkış - alltool dan çıkış yap)
+print("  \033[1;34m[ 04 ] >> \033[1;36;40mSistemden çıkış - alltool dan çıkış yap")
 print("  \033[1;34m[ 05 ] >> \033[1;36;40mAna menüye dön")
 
 op=int(raw_input("XSSattACk: "))
