@@ -28,7 +28,7 @@ b="\033[1;34m"
 o="\033[1;33m"
 bl="\033[1;36;40m"
 
-op=int(raw_input("Seçenekler: "))
+op=int(raw_input("options:"))
 if(op==1):
  os.system("bash src/Inf.sh")
  time.sleep(0.3)
